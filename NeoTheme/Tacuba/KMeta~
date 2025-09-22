@@ -1,0 +1,173 @@
+! meta
+! (c) joel carlbark 2003
+! please dont turn on aa with this style
+! make sure you have the font 'glisp' (or similar).
+
+toolbar:                             flat gradient vertical
+toolbar.color:                       #202020
+toolbar.colorTo:                     #000000
+
+toolbar.button:                      parentrelative
+toolbar.button.picColor:             #FFFFFF
+
+toolbar.button.pressed:              sunken solid
+toolbar.button.pressed.color:        #2a2a2a
+toolbar.button.pressed.picColor:     #ffffff
+
+! clock
+toolbar.clock:                       parentrelative
+toolbar.clock.textColor:             white
+
+! rounded corners
+window.roundCorners:		     TopRight TopLeft
+menu.roundCorners: 		     TopRight TopLeft BottomRight BottomLeft
+toolbar.shaped:			     False
+
+! shows workspace nr
+toolbar.label:                       parentrelative
+toolbar.label.textColor:             white
+
+! current active window / toolbar
+toolbar.windowLabel:                 parentrelative
+toolbar.windowLabel.textColor:       white
+
+! menu ---------
+menu.title:                          flat gradient vertical
+menu.title.color:                    #000000
+menu.title.colorTo:                  #242424
+menu.title.textColor:                white
+
+menu.frame:                          flat gradient vertical
+menu.frame.color:                    #efefef
+menu.frame.colorTo:                  #c6c6c6
+menu.frame.textColor:                black
+
+menu.hilite:                         flat gradient vertical
+menu.hilite.color:		     #000000
+menu.hilite.colorTo:		     #202020
+menu.hilite.textColor:               white
+
+menu.bullet:                         triangle
+menu.bullet.position:                right
+
+! window --------------
+
+window.title.focus:                  flat gradient vertical
+window.title.focus.color:            #000000
+window.title.focus.colorTo:          #242424
+
+window.label.focus:                  parentrelative
+window.label.focus.textColor:        white
+
+window.button.focus:                 parentrelative
+window.button.focus.picColor:        #FFFFFF
+
+window.button.pressed:               parentrelative
+window.button.pressed.picColor:      #949494
+
+window.handle.focus:                 flat gradient vertical
+window.handle.focus.color:           #000000
+window.handle.focus.colorTo:         #242424
+
+window.grip.focus:                   flat gradient vertical
+window.grip.focus.color:             #000000
+window.grip.focus.colorTo:           #242424
+
+window.frame.focus:                  flat solid
+window.frame.focus.color:            white
+
+! unfocused
+window.title.unfocus:                flat gradient vertical
+window.title.unfocus.color:          #000000
+window.title.unfocus.colorTo:        #242424
+
+window.label.unfocus:                parentrelative
+window.label.unfocus.textColor:      #949494
+
+window.handle.unfocus:               flat gradient vertical
+window.handle.unfocus.color:         #000000
+window.handle.unfocus.colorTo:       #242424
+
+window.grip.unfocus:                 flat gradient vertical
+window.grip.unfocus.color:           #000000
+window.grip.unfocus.colorTo:         #242424
+
+window.frame.unfocus:                flat solid
+window.frame.unfocus.color:          white
+
+window.button.unfocus:               parentrelative
+window.button.unfocus.picColor:      #949494
+
+! tabs ------
+window.tab.justify:                  left
+
+window.tab.label.focus:              flat gradient vertical
+window.tab.label.focus.color:        #000000
+window.tab.label.focus.colorTo:      #242424
+window.tab.label.focus.textColor:    #d6d7e7
+
+window.tab.label.unfocus:            flat gradient vertical
+window.tab.label.unfocus.color:      #7a7a7a
+window.tab.label.unfocus.colorTo:    #3e3e3e
+window.tab.label.unfocus.textColor:  #949694
+
+window.tab.borderWidth:              1
+window.tab.borderColor:              #949694
+! -------
+
+toolbar.justify:                     left
+toolbar.clock.justify:		     center
+toolbar.iconbar.*.justify:	     left
+window.justify:                      left
+menu.title.justify:                  center
+menu.frame.justify:                  left
+
+window.title.height:		     24
+
+borderColor:                         #000000
+borderWidth:                         2
+bevelWidth:                          1
+frameWidth:                          1
+handleWidth:                         5
+
+background: flat
+background.color: #d6d7e7
+
+*font:				Lucida Grande-10:bold
+window.label.*.font:		Lucida Grande-12:bold
+menu.title.*.font:		Lucida Grande-12:bold
+*clock.font:			Terminus-10:bold
+*workspace.font:		Terminus-10:bold
+
+! buttons --------
+
+windows.maximize.pixmap: close
+windows.maximize.unfocus.pixmap: close
+windows.maximize.pressed.pixmap: close
+
+! shadow ---------
+
+window.label.*.effect:		     shadow
+window.label.*.shadow.color:	     black
+window.label.*.shadow.x:	     2
+window.label.*.shadow.y:	     2
+
+menu.title.*.effect:		     shadow
+menu.title.*.shadow.color:	     black
+menu.title.*.shadow.x:		     2
+menu.title.*.shadow.y:		     2
+
+toolbar.iconbar.*.effect:	     shadow
+toolbar.iconbar.*.shadow.color:      black
+toolbar.iconbar.*.shadow.x:	     2
+toolbar.iconbar.*.shadow.y:	     2
+
+*clock.*.effect:		     shadow
+*clock.*.shadow.color:		     black
+*clock.*.shadow.x:		     2
+*clock.*.shadow.y:		     2
+
+*workspace.*.effect:		     shadow
+*workspace.*.shadow.color:	     black
+*workspace.*.shadow.x:		     2
+*workspace.*.shadow.y:		     2
